@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "seidart-ext"
+version = "0.0.1"
+description = "An extension of the SeidarT package for seismic and electromagnetic data processing."
+authors = ["Steven Bernsen"]
+
+[tool.poetry.dependencies]
+python = "3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
